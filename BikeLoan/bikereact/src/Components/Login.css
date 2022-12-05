@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    overflow: hidden;
+    position: relative;
+    background: url(https://img.freepik.com/premium-vector/abstract-geometric-blue-white-color-background-vector-illustration_181182-19849.jpg?w=2000);
+    /* background:linear-gradient(90deg , rgba(2,0,0.6,1),rgba(9,9,121,1) 35% ,rgba(0,212,255,1) 100% ); */
+}
+.main{
+    width: 470px;
+    height: 500px;
+    padding: 30px 35px 35px 35px;
+    border-radius: 40px;
+    background:#1c1c1c;
+position: relative;
+    /* box-shadow: 13px 13px 20px #cdced1,-13px -13px 20px black; */
+
+}
+
+
+.Container{
+    position:absolute;
+    inset: 15px;
+    background: #66669e;
+    z-index:2;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+.title{text-align: center;
+font-size: 40px;
+padding: 30px;
+margin: 0;
+color: #0f0d0d;
+letter-spacing: 0.5px;
+/* margin-top: 100px; */
+}
+.fields{
+    width: 100%;
+padding: 75px 5px 5px 5px;
+}
+.fields Input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 28px;
+    color: rgb(26, 23, 23);
+    padding: 30px 10px 20px 5px;
+}
+.email,.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbcbcb, inset -8px -8px 8px #fff ;
+}
+.btn-Login{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #ececec;
+    text-align: center;
+    background-color: cadetblue;
+    box-shadow: 3px 3px 8px #b1b1b1,-3px -3px 8px #fff;
+    transition: all 0.5s;
+}
+.btn-Login:hover{
+    background-color: rgb(7, 9, 104);
+}
+.btn-Login:active{
+    background-color: #080025;
+}
+Link{
+    font-size: 20px;
+}
+ 

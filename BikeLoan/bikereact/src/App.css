@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.btn-primary{
+
+}
+table {
+  border: solid 10px black;
+ 
+}
+
+  table td, table th ,table tr {
+      padding: 15px;
+      background-color:rgba(196, 227, 255, 0.596);
+      box-shadow:3px 5px 5px 5px black;
+  }
+ 
+  h1{
+      text-align: center;
+      text-decoration:double;
+  }
+  button{
+    color: #000000;
+    background-color: burlywood;
+    border-radius: 2px;
+  }
+  
+.logout{
+margin-left: 1065px;
+border-radius: 50px 20px;
+padding: 15px 20px;
+font-size: 20px;
+background-color: #b7d5f1;
+color: azure;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* background: url(https://muthootmoney.in/sites/default/files/2019-09/slider1.jpg); */
+  color: black;
+  text-shadow: 0 0 3px #000000, 0 0 5px #cdcdd1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
